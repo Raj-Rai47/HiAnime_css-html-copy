@@ -1,0 +1,371 @@
+.body{
+    display: block;
+    background-color: rgba(32, 31, 49);
+}
+
+.home_div{
+    display: flex;
+    /* height:100px; */
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width:640px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.home{
+    display: block;
+    text-decoration-line: none;
+    color: white;
+    font-family: 'Poppins', regular;
+    font-size: 16px;
+    
+    /* margin-left:10px;
+    margin-right: 10px; */
+    
+
+
+}
+
+
+.main_div{
+
+
+
+    /* background-size: 680px 570px; */
+
+    display: block;
+    height:466px;
+    background-color: rgba(43, 42, 60, 1);
+    border:0.1px transparent;
+    border-radius: 40px;
+    margin:auto 84px;
+    padding-left: 84px;
+    padding-top: 55px;
+    font-family: 'Poppins', regular;
+    /* background: linear-gradient(to right,rgba(43, 42, 60, 1),rgba(43, 42, 60, 0)); */
+
+    /* background-image: url(main_background.webp); */
+    background-image:  linear-gradient(to right,rgba(43, 42, 60, 1),rgba(43, 42, 60, 0.38)),url(main_background.webp);
+    background-size: 760px 540px;
+    
+    background-repeat: no-repeat;
+    background-position: 620px;
+    background-position: fixed;
+    /* background:linear-gradient(to right,rgba(43, 42, 60, 1),rgba(43, 42, 60, 0)); */
+    /* background-position-y: px; */
+}
+
+/* .main__{
+
+} */
+.hianime{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-decoration-line: none;
+    font-family: 'Poppins', regular;
+    
+
+    color: white;
+}
+
+.i{
+    color:rgba(225, 107, 160, 1);
+}
+
+.search_div{
+    display: flex;
+    /* margin-bottom: 10px; */
+    font-family: 'Poppins', regular;
+
+}
+
+.search_box{
+    display: block;
+    width: 442px;
+    height: 51px;
+    border: 1px transparent;
+    color: azure;
+    font-size: 7px;
+    border-radius: 14px;
+    font-size: 19px;
+    margin-right: 10px;
+    padding-left:20px;
+    
+}
+
+.search_button{
+    display: block;
+    height: 50px;
+    width: 48px;
+    background-color:rgba(255, 204, 219,1);
+    border: 0.2px solid black;
+    border-radius: 10px;
+
+}
+
+.search_img{
+    height:26px;
+    width: 26px;
+
+}
+
+
+/* .suggestions_div{
+    /* display: block; */
+    
+/* } */ 
+.suggestions_div{
+    width: 500px;
+    height: 100px;
+    margin-top: 30px;
+    line-height: 1.9;
+    font-family: 'Poppins', regular;
+
+
+}
+
+
+.suggestion_names{
+    /* display: block; */
+    width: 500px;
+    height: 50px;
+    font-size: 14px;
+
+}
+.sug_each{
+    text-decoration-line: none;
+    color:white;
+    letter-spacing: 0.4px;
+
+}
+
+
+.watch_div{
+    display: flex;
+    height: 62px;
+    width: 230px;
+    background-color: rgba(255, 204, 219,1);
+    border: 1px transparent;
+    border-radius: 14px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-family: 'Poppins', regular;
+
+}
+
+.watch{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 12px;
+    font-size: 21px;
+    text-decoration-line: none;
+    color: black;
+}
+
+.arrow{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 17px;
+    width:25px;
+    height: 22px;
+}
+
+
+.below_main_div{
+    display: flex;
+    margin-left: 165px;
+    margin-top: 24px;
+}
+
+.below_main_p{
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.share_frnds{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 204, 219,1);
+
+}
+
+.shares_no{
+    width: 50px;
+    height: 40px;
+    margin-left: 8px;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-top: 17px;
+}
+
+.shares_quan{
+    font-weight: bold;
+    font-size: 19px;
+    color: rgb(73, 70, 70); 
+}
+
+.tg_share{
+    background-color: rgb(34, 158, 217);
+    display: flex;
+    height: 32px;
+    width: 120px;
+    margin-top: 17px;
+    border: 1px transparent;
+    border-radius: 16px;
+    margin-right: 5px;
+    text-decoration-line: none;
+    color: white;
+    font-family: 'Poppins', regular;
+
+
+}
+
+
+
+.x_share{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 32px;
+    width: 120px;
+    margin-top: 17px;
+    border-radius: 16px;
+    border: 1px transparent;
+    text-decoration-line: none;
+
+    color: white;
+
+    margin-right: 5px;
+    font-family: 'Poppins', regular;
+
+
+}
+
+.fb_share{
+    background-color: rgb(2, 64, 171);
+    display: flex;
+    height: 32px;
+    width: 120px;
+    margin-top: 17px;
+    border-radius: 16px;
+    margin-right: 5px;
+    border: 1px transparent;
+    text-decoration-line: none;
+    font-family: 'Poppins', regular;
+
+    color: white;
+
+
+}
+
+.redit_share{
+    background-color: rgb(177, 55, 14);
+    display: flex;
+    height: 32px;
+    width: 120px;
+    margin-top: 17px;
+    border-radius: 16px;
+    margin-right: 5px;
+    border: 1px transparent;
+    text-decoration-line: none;
+    font-family: 'Poppins', regular;
+
+    color: white;
+
+}
+
+.share_img{
+    display: flex;
+    height: 18px;
+    width: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 13px;
+    margin-right: 15px;
+}
+
+.share_img1{
+    margin-top: 17px;
+    height: 31px;
+    width: 46px;
+    border: 1px transparent;
+    border-radius: 16px;
+    background-color: rgb(17, 193, 108);
+}
+
+.share_img_{
+    height: 19px;
+    width:20px;
+}
+.share_text{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+
+
+
+.data_div{
+    margin-left: 160px;
+    width: 720px;
+    color: white;
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main_heading{
+    font-size: 25px;
+}
+
+.headings{
+    font-size: 22px;
+}
+
+.para{
+    font-size: 14px;
+}
+
+
+
+
+
+
+.home:hover{
+    color: rgba(255, 204, 219,1);
+}
+
+
+.tg_share:hover{
+    margin-top: 13px;
+    background-color: rgba(34, 159, 217, 0.662);
+    transition: 0.3s;
+}
+
+.fb_share:hover{
+    margin-top: 13px;
+    background-color: rgb(2, 64, 171,0.662);
+    transition: 0.3s;
+
+}
+
+.x_share:hover{
+    margin-top: 13px;
+    transition: 0.3s;
+
+}
+
+.redit_share:hover{
+    margin-top: 13px;
+    background-color: rgb(177, 55, 14,0.662);
+    transition: 0.3s;
+
+}
+
